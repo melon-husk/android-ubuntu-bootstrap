@@ -2,10 +2,10 @@ name: Build bootstrap
 on: [push]
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
-#       - name: Fix permissions
-#         run: sudo chown -R $USER:$USER /home/runner/work/android-ubuntu-bootstrap
+      - name: Fix permissions
+        run: sudo chown -R $USER:$USER /home/runner/work/android-ubuntu-bootstrap
       - name: Checkout the code
         uses: actions/checkout@v2
       - uses: actions/setup-python@v2
