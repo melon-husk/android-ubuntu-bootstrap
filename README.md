@@ -1,6 +1,5 @@
 # android-linux-bootstrap
 
-Minimal (<3MB) alpine-linux bootstrap archive for Android API 16+. Used in feelfreelinux/octo4a.
 
 ## Setup
 
