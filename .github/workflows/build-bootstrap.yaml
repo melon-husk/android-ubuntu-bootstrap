@@ -14,9 +14,7 @@ jobs:
       - name: Install NDK
         run: echo "y" | sudo ${ANDROID_HOME}/tools/bin/sdkmanager --install "ndk;21.3.6528147" --sdk_root=${ANDROID_SDK_ROOT}
       - name: Checkout submodules
-        uses: srt32/git-actions@v0.0.3
-        with:
-          args: git submodule update --init --recursive
+        run: git submodule update --init --recursive
       - name: Get android home
         run: echo ${ANDROID_HOME}
       - name: Build the bootstrap
