@@ -57,7 +57,7 @@ build_bootstrap () {
 	fi
 
 
-	curl -o rootfs.tar.xz -L "https://partner-images.canonical.com/core/focal/current/ubuntu-focal-core-cloudimg-arm64-root.tar.gz  "
+	curl -o rootfs.tar.xz -L "https://github.com/EXALAB/Anlinux-Resources/raw/master/Rootfs/Ubuntu/arm64/ubuntu-rootfs-arm64.tar.xz"
 	cp ../../run-bootstrap.sh .
 	cp ../../install-bootstrap.sh .
 	cp ../../fake_proc_stat .
