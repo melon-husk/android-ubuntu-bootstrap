@@ -20,6 +20,6 @@ cross_compile() {
 cp ../ioctlHook.c ioctlHook.c
 
 cross_compile $MUSL_AARCH64
-cross_compile $MUSL_I686
-cross_compile $MUSL_ARMV7
-cross_compile $MUSL_X86_64
+# cross_compile $MUSL_I686
+# cross_compile $MUSL_ARMV7
+# cross_compile $MUSL_X86_64
