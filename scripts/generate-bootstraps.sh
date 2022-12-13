@@ -6,7 +6,7 @@ cd ../external/proot/
 
 ./build.sh
 
-echo "Building minitar..."
+echo "Building minitar... "
 cd ../minitar
 ./build.sh
 
